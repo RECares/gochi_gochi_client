@@ -7,7 +7,7 @@ import 'package:gochi_gochi_client/models/user.dart';
 /// Contains information related to the application API.
 class Api {
   /// The base URI of the application API.
-  static Uri get uri => Uri.parse('https://recares2019.herokuapp.com');
+  static Uri get uri => Uri.parse('https://gochi-gochi-server.herokuapp.com');
 
   /// Returns the URI access point for the type of given ApiType instance.
   ///
